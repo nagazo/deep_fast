@@ -3,18 +3,22 @@ import pymysql
 import requests
 from PIL import Image
 import io
+import pymysql.cursors
 
 # DB 연결 함수
 def get_conn():
-    return pymysql.connect(
+    conn= pymysql.connect(
         host='13.125.248.110',  # 데이터베이스 서버 주소
         user='nagazo',          # 데이터베이스 사용자 이름
         password='4444',        # 데이터베이스 비밀번호
-        database='nagazodb'     # 데이터베이스 이름
-    )
+        database='nagazodb',
+        port = 53306,
+        cursorclass=pymysql.cursors.DictCursor
+        )
+    return conn
 
 # 이미지 가져오기 함수
-def fetch_image():
+def fetch_image(url):
     url='http://13.125.248.110:8044/uploadfile/'
     response = requests.get(url)
     if response.status_code == 200:
@@ -36,7 +40,7 @@ with conn:
         results = cursor.fetchall()
 
 # 결과를 기반으로 이미지 표시 및 라벨 추가
-for num, image_url in results:
+for num, file_path in results:
     st.write(f"Image Number: {num}")
     image = fetch_image(file_path)
     if image:
