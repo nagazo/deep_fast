@@ -57,3 +57,13 @@ async def upload_file(file: UploadFile):
             "file_full_path" : file_full_path,
             "request_time" : ts
             }
+@app.post("/all/")
+def all():
+    connection = get_conn()
+    with connection:
+        with connection.cursor() as cursor:
+            sql = "SELECT * FROM dog_class"
+            cursor.execute(sql)
+            result = cursor.fetchall()
+            #print(result)
+    return result
