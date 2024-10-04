@@ -1,6 +1,7 @@
 from fastapi import FastAPI, File, UploadFile
 from transformers import pipeline
 from deep_fast.util_esther import get_max_label
+from deep_fast.db import get_conn
 import io
 from fastapi import Request
 from typing import Union
@@ -8,6 +9,8 @@ from typing import Union
 from datetime import datetime
 from pytz import timezone
 import pymysql.cursors
+import os
+import uuid
 
 app = FastAPI()
 
