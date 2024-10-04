@@ -29,11 +29,11 @@ async def upload_file(file: UploadFile):
     # 연결 DB 수정해야함
     connection = get_conn()
     # insert 양식 손봐야함
-    sql = "INSERT INTO `image_processing`(file_name, label, file_path, request_time, request_user) VALUES (%s, %s, %s, %s, %s)"
+    sql = "INSERT INTO `dog_class`(file_name, file_path, request_time) VALUES (%s, %s, %s)"
     with connection:
         with connection.cursor() as cursor:
             # insert 들어갈 value들 수정해야함
-            cursor.execute(sql,(file_name, file_label, file_full_path, ts, "n18"))
+            cursor.execute(sql,(file_name, file_full_path, ts))
         connection.commit()
 #    img = await file.read()
 #    model=pipeline("image-classification", model="roschmid/dog-races")
