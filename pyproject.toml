@@ -5,7 +5,11 @@ description = "Team 4 Project Ai vs Real"
 authors = [
     {name = "Kimwonjoon", email = "kimpass189@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standart]>=0.31.0",
+    "transformers>=4.45.1",
+]
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
