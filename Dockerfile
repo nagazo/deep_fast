@@ -2,7 +2,7 @@ FROM python:3.11
 
 WORKDIR /code
 
-COPY src/deep_fast/main_esther.py /code/
+COPY src/deep_fast/main.py /code/
 COPY run.sh /code/run.sh
 
 RUN apt update
