@@ -1,11 +1,19 @@
 [project]
 name = "deep_fast"
-version = "0.1.0"
+version = "0.1.2"
 description = "Team 4 Project Ai vs Real"
 authors = [
     {name = "Kimwonjoon", email = "kimpass189@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standart]>=0.31.0",
+    "transformers>=4.45.1",
+    "PyMySQL>=1.1.1",
+    "pytz>=2024.2",
+    "streamlit>=1.39.0",
+    "python-multipart>=0.0.12",
+]
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
