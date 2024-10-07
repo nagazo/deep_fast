@@ -39,4 +39,4 @@ def run():
                 sql = f"UPDATE dog_class SET prediction_result='{label}', prediction_time='{ts}' WHERE num={ind}"
                 cursor.execute(sql)
             connection.commit()
-        return prediction
+        return label, ts
