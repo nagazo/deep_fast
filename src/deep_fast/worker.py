@@ -25,7 +25,7 @@ def run():
         return ind
     else:
         ind = result['num']
-        model=pipeline("image-classification", model="dima806/133_dog_breeds_image_detection")
+        model=pipeline("image-classification", model="roschmid/dog-races")
         from PIL import Image
         from deep_fast.util_esther import get_max_label
 
