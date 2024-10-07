@@ -36,7 +36,7 @@ def run():
         connection = get_conn()
         with connection:
             with connection.cursor() as cursor:
-                sql = f"UPDATE dog_class SET prediction_result={label}, prediction_time='{ts}' WHERE num={ind}"
+                sql = f"UPDATE dog_class SET prediction_result='{label}', prediction_time='{ts}' WHERE num={ind}"
                 cursor.execute(sql)
             connection.commit()
         return prediction
