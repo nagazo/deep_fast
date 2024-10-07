@@ -1,7 +1,7 @@
 from datetime import datetime
 from pytz import timezone
 from deep_fast.db import get_conn, select, dml
-
+from transformers import pipeline
 import random
 import requests
 import os
