@@ -16,7 +16,7 @@
 ---
 
 ## 🏗️ 아키텍처 개요
-- https://cdn.discordapp.com/attachments/1278623984912699465/1293026206849044521/image.png?ex=6705dffe&is=67048e7e&hm=af29b22ca296123d3a3b56008dd46d428912342c8c7f8121879c44aeeb540006&
+- (https://cdn.discordapp.com/attachments/1278623984912699465/1293026206849044521/image.png?ex=6705dffe&is=67048e7e&hm=af29b22ca296123d3a3b56008dd46d428912342c8c7f8121879c44aeeb540006&)
 
 ## 🎯 주요 기능
 
