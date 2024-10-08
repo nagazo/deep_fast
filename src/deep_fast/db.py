@@ -4,7 +4,7 @@ import os
 def get_conn():
 # 여기 ip나 port나 비번이나 다 바꾸기
   conn = pymysql.connect(host=os.getenv("DB_IP","localhost"),
-                            port=int(os.getenv("MY_PORT", 53306)),
+                            port=int(os.getenv("MY_PORT", 43306)),
                             user = 'nagazo', password = '4444',
                             database = 'nagazodb',
                             cursorclass=pymysql.cursors.DictCursor)
