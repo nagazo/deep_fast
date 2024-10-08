@@ -1,4 +1,5 @@
 # 🐕 Dog Image Classification
+## 🛠️
 <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat&logo=Python&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Streamlit-1.39.0%2B-FF4B4B?style=flat&logo=Streamlit&logoColor=white"/>  <img src="https://img.shields.io/badge/FastAPI-0.115.0%2B-009688?style=flat&logo=FastAPI&logoColor=white"/>  <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=flat&logo=Apache-Airflow&logoColor=white"/>  <img src="https://img.shields.io/badge/PySpark-3.x-E25A1C?style=flat&logo=Apache-Spark&logoColor=white"/>  <img src="https://img.shields.io/badge/PyMySQL-1.1.1%2B-4479A1?style=flat&logo=MySQL&logoColor=white"/>
 
 
@@ -13,9 +14,7 @@
 8. [라이센스](#📄-라이센스)
 
 ## 프로젝트 개요
-이 프로젝트는 강아지 사진을 업로드하고, 머신러닝 모델을 통해 해당 강아지의 품종을 예측하는 시스템입니다. **Streamlit**, **FastAPI**, **Airflow**, **PySpark**를 사용하여 이미지 업로드부터 예측, 라벨링까지 자동화된 프로세스를 제공합니다. 관리자는 이미지를 직접 라벨링할 수 있으며, 이를 통해 모델의 성능을 개선할 수 있습니다.
-
----
+이 프로젝트는 강아지 사진을 업로드하고, 머신러닝 모델을 통해 해당 강아지의 품종을 예측하는 시스템입니다. <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=Streamlit&logoColor=white"/>, <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=FastAPI&logoColor=white"/>, <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=flat&logo=Apache-Airflow&logoColor=white"/>, <img src="https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=Apache-Spark&logoColor=white"/>를 사용하여 이미지 업로드부터 예측, 집계까지 자동화된 프로세스를 제공합니다. 또한, 관리자는 이미지를 직접 라벨링할 수 있습니다.
 
 ## 🏗️ 아키텍처 개요
 ![image](https://github.com/user-attachments/assets/02ea2818-bd7f-433e-abbf-4cda26aa7eb9)
@@ -53,14 +52,6 @@
 - **작업 스케줄러**: Apache Airflow
 - **데이터 처리 및 분석**: PySpark
 
-## 🛠️ 기술 스택
-
-- **Python**: 3.8 이상
-- **Streamlit**: 1.39.0 이상
-- **FastAPI**: 0.115. 이상
-- **Apache Airflow**
-- **PySpark**: 3.x
-- **PyMySql**: 1.1.1 이상
 
 ## 🚀 설치 방법
 
@@ -68,7 +59,7 @@
 
 ## 🤝 기여하기
 
-기여를 원하시는 분은 아래의 단계를 따라 주세요:
+Contributor은 언제나 환영합니다. Contribution을 원하시면 다음 단계를 따라주세요:)
 
 1. **레포지토리 포크**
    - 이 프로젝트의 레포지토리를 포크하여 개인 계정으로 복사합니다.
@@ -94,12 +85,18 @@
 
 ## 📄 라이센스
 
-이 프로젝트는 MIT 라이센스 하에 배포됩니다. 이 라이센스는 소프트웨어의 사용, 복사, 수정, 병합, 출판 및 판매를 허가하며, 소프트웨어의 저작권 및 라이센스 고지를 포함해야 합니다.
-
-자세한 내용은 LICENSE 파일을 참조해 주세요.
+이 라이센스는 소프트웨어의 사용, 복사, 수정, 병합, 출판 및 판매를 허가하며, 소프트웨어의 저작권 및 라이센스 고지를 포함해야 합니다.
 
 
 ```
 위의 마크다운 내용은 "변경 사항 커밋" 섹션을 포함한 전체적인 기여 방법을 올바르게 나타냅니다.   
 필요에 따라 이 내용을 기존 리드미에 통합하시면 됩니다.
 ```
+
+## 💬 문의
+
+질문이나 제안사항이 있으면 언제든지 연락주세요🙋
+- 이메일: nagazo@nagazo.com
+- GitHub: EstherCho-7, DONGUK777, Kimwonjoon, mangG907 
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
