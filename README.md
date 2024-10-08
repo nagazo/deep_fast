@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300§ion=header&text=Welcome!🐶&desc=This%20is%20nagazo%20playground.%20&fontSize=90&descSize=30&fontColor=ffffff&fontAlignY=40)
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Welcome!🐶&desc=This%20is%20nagazo%20playground.&fontSize=90&descSize=30&fontColor=ffffff&fontAlign)
 
 # 🐕 Dog Image Classification
 <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat&logo=Python&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Streamlit-1.39.0%2B-FF4B4B?style=flat&logo=Streamlit&logoColor=white"/>  <img src="https://img.shields.io/badge/FastAPI-0.115.0%2B-009688?style=flat&logo=FastAPI&logoColor=white"/>  <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=flat&logo=Apache-Airflow&logoColor=white"/>  <img src="https://img.shields.io/badge/PySpark-3.x-E25A1C?style=flat&logo=Apache-Spark&logoColor=white"/>  <img src="https://img.shields.io/badge/PyMySQL-1.1.1%2B-4479A1?style=flat&logo=MySQL&logoColor=white"/>
