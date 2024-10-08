@@ -16,7 +16,7 @@
 ---
 
 ## 🏗️ 아키텍처 개요
-- ![image](https://github.com/user-attachments/assets/02ea2818-bd7f-433e-abbf-4cda26aa7eb9)
+![image](https://github.com/user-attachments/assets/02ea2818-bd7f-433e-abbf-4cda26aa7eb9)
 
 ## 🎯 주요 기능
 
