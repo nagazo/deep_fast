@@ -16,6 +16,12 @@
 
 ## 프로젝트 개요
 이 프로젝트는 **강아지 사진**을 업로드하고, 머신러닝 모델을 통해 해당 강아지의 **품종**을 **예측**하는 시스템입니다. <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=Streamlit&logoColor=white"/>, <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=FastAPI&logoColor=white"/>, <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=flat&logo=Apache-Airflow&logoColor=white"/>, <img src="https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=Apache-Spark&logoColor=white"/>를 사용하여 이미지 업로드부터 **예측**, **집계**까지 **자동화**된 프로세스를 제공합니다. 또한, **관리자**는 이미지를 **직접 라벨링**할 수 있습니다.
+<details>
+  <summary><strong>예측 가능한 9종의 강아지 품종</strong></summary>
+
+  ![image](https://github.com/user-attachments/assets/1ef15084-3e1f-43c6-8612-b30e80ef475c)
+
+</details>
 
 ## 🏗️ 아키텍처 개요
 <details>
