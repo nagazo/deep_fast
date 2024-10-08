@@ -17,7 +17,7 @@
 
 ## 🏗️ 아키텍처 개요
 <details>
-  <summary>아키텍처 이미지 보기</summary>
+  <summary><strong>아키텍처 이미지 보기</strong></summary>
 
   ![image](https://github.com/user-attachments/assets/02ea2818-bd7f-433e-abbf-4cda26aa7eb9)
 
