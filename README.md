@@ -16,7 +16,7 @@
 ---
 
 ## 🏗️ 아키텍처 개요
-- "C:\Users\playdata2\Desktop\32기_김동욱\dog_classification 아키텍처.pptx"
+- https://cdn.discordapp.com/attachments/1278623984912699465/1293026206849044521/image.png?ex=6705dffe&is=67048e7e&hm=af29b22ca296123d3a3b56008dd46d428912342c8c7f8121879c44aeeb540006&
 
 ## 🎯 주요 기능
 
@@ -54,11 +54,11 @@
 ## 🛠️ 기술 스택
 
 - **Python**: 3.8 이상
-- **Streamlit**: 1.x
-- **FastAPI**: 0.68.0
-- **Apache Airflow**: 2.x
-- **MySQL**: 5.x 이상
+- **Streamlit**: 1.39.0 이상
+- **FastAPI**: 0.115. 이상
+- **Apache Airflow**
 - **PySpark**: 3.x
+- **PyMySql**: 1.1.1 이상
 
 ## 🚀 설치 방법
 
