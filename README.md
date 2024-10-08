@@ -1,4 +1,11 @@
-# 🐶 Dog Image Classification Project
+# 🐕 Dog Image Classification
+<img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat&logo=Python&logoColor=F5F7F8"/>
+<img src="https://img.shields.io/badge/Streamlit-1.39.0%2B-FF4B4B?style=flat&logo=Streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-0.115.0%2B-009688?style=flat&logo=FastAPI&logoColor=white"/>
+<img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=flat&logo=Apache-Airflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/PySpark-3.x-E25A1C?style=flat&logo=Apache-Spark&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyMySQL-1.1.1%2B-4479A1?style=flat&logo=MySQL&logoColor=white"/>
+
 
 ## 📚 목차
 1. [프로젝트 개요](#프로젝트-개요)
@@ -32,7 +39,7 @@
    - 관리자는 라벨을 입력하고 제출하여 데이터베이스에 저장합니다.
 
 3. **자동 예측 및 로그 기록**
-   - **Airflow**를 사용하여 정해진 간격으로 머신러닝 모델이 실행됩니다.
+   - **Airflow**를 사용하여 (정해진 간격?)으로 머신러닝 모델이 실행됩니다.
    - 각 실행 결과는 로그에 기록되어 데이터 분석에 활용됩니다.
 
 4. **데이터 집계 및 분석**
